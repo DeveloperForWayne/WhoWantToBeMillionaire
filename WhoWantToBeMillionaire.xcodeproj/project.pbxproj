@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0F4549C241C127C0034E054 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4549B241C127C0034E054 /* main.swift */; };
+		B0F454A3241C12BE0034E054 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454A2241C12BE0034E054 /* Player.swift */; };
+		B0F454A5241C135C0034E054 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454A4241C135C0034E054 /* Question.swift */; };
+		B0F454A7241C19A40034E054 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454A6241C19A40034E054 /* Choice.swift */; };
+		B0F454A9241C1B930034E054 /* Lifeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454A8241C1B930034E054 /* Lifeline.swift */; };
+		B0F454AB241C2C6B0034E054 /* QuestionPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454AA241C2C6B0034E054 /* QuestionPrize.swift */; };
+		B0F454AD241C30C30034E054 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454AC241C30C30034E054 /* Game.swift */; };
+		B0F454AF241C5E9C0034E054 /* EasyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454AE241C5E9C0034E054 /* EasyGame.swift */; };
+		B0F454B1241C685F0034E054 /* HardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454B0241C685F0034E054 /* HardGame.swift */; };
+		B0F454B3241C742F0034E054 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F454B2241C742F0034E054 /* Variables.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0F45496241C127C0034E054 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0F45498241C127C0034E054 /* WhoWantToBeMillionaire */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WhoWantToBeMillionaire; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F4549B241C127C0034E054 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B0F454A2241C12BE0034E054 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B0F454A4241C135C0034E054 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B0F454A6241C19A40034E054 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		B0F454A8241C1B930034E054 /* Lifeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifeline.swift; sourceTree = "<group>"; };
+		B0F454AA241C2C6B0034E054 /* QuestionPrize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPrize.swift; sourceTree = "<group>"; };
+		B0F454AC241C30C30034E054 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B0F454AE241C5E9C0034E054 /* EasyGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGame.swift; sourceTree = "<group>"; };
+		B0F454B0241C685F0034E054 /* HardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardGame.swift; sourceTree = "<group>"; };
+		B0F454B2241C742F0034E054 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0F45495241C127C0034E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0F4548F241C127C0034E054 = {
+			isa = PBXGroup;
+			children = (
+				B0F4549A241C127C0034E054 /* WhoWantToBeMillionaire */,
+				B0F45499241C127C0034E054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0F45499241C127C0034E054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F45498241C127C0034E054 /* WhoWantToBeMillionaire */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0F4549A241C127C0034E054 /* WhoWantToBeMillionaire */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4549B241C127C0034E054 /* main.swift */,
+				B0F454A2241C12BE0034E054 /* Player.swift */,
+				B0F454A4241C135C0034E054 /* Question.swift */,
+				B0F454A6241C19A40034E054 /* Choice.swift */,
+				B0F454A8241C1B930034E054 /* Lifeline.swift */,
+				B0F454AA241C2C6B0034E054 /* QuestionPrize.swift */,
+				B0F454AC241C30C30034E054 /* Game.swift */,
+				B0F454AE241C5E9C0034E054 /* EasyGame.swift */,
+				B0F454B0241C685F0034E054 /* HardGame.swift */,
+				B0F454B2241C742F0034E054 /* Variables.swift */,
+			);
+			path = WhoWantToBeMillionaire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0F45497241C127C0034E054 /* WhoWantToBeMillionaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F4549F241C127C0034E054 /* Build configuration list for PBXNativeTarget "WhoWantToBeMillionaire" */;
+			buildPhases = (
+				B0F45494241C127C0034E054 /* Sources */,
+				B0F45495241C127C0034E054 /* Frameworks */,
+				B0F45496241C127C0034E054 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhoWantToBeMillionaire;
+			productName = WhoWantToBeMillionaire;
+			productReference = B0F45498241C127C0034E054 /* WhoWantToBeMillionaire */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0F45490241C127C0034E054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Georgebrown;
+				TargetAttributes = {
+					B0F45497241C127C0034E054 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B0F45493241C127C0034E054 /* Build configuration list for PBXProject "WhoWantToBeMillionaire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0F4548F241C127C0034E054;
+			productRefGroup = B0F45499241C127C0034E054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0F45497241C127C0034E054 /* WhoWantToBeMillionaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0F45494241C127C0034E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F454A9241C1B930034E054 /* Lifeline.swift in Sources */,
+				B0F454A5241C135C0034E054 /* Question.swift in Sources */,
+				B0F454AD241C30C30034E054 /* Game.swift in Sources */,
+				B0F454B1241C685F0034E054 /* HardGame.swift in Sources */,
+				B0F454AB241C2C6B0034E054 /* QuestionPrize.swift in Sources */,
+				B0F454A3241C12BE0034E054 /* Player.swift in Sources */,
+				B0F454AF241C5E9C0034E054 /* EasyGame.swift in Sources */,
+				B0F454A7241C19A40034E054 /* Choice.swift in Sources */,
+				B0F4549C241C127C0034E054 /* main.swift in Sources */,
+				B0F454B3241C742F0034E054 /* Variables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0F4549D241C127C0034E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0F4549E241C127C0034E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B0F454A0241C127C0034E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B0F454A1241C127C0034E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0F45493241C127C0034E054 /* Build configuration list for PBXProject "WhoWantToBeMillionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F4549D241C127C0034E054 /* Debug */,
+				B0F4549E241C127C0034E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F4549F241C127C0034E054 /* Build configuration list for PBXNativeTarget "WhoWantToBeMillionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F454A0241C127C0034E054 /* Debug */,
+				B0F454A1241C127C0034E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0F45490241C127C0034E054 /* Project object */;
+}
